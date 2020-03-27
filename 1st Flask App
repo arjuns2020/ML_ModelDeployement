@@ -1,0 +1,19 @@
+from flask import Flask
+
+#---- Initiaize flask app --- #
+
+app = Flask(__name__)
+
+# Wrap this fuction to run flask server
+@app.route('/')
+
+#function
+def add():
+  a=1
+  b=2
+  return str((a+b))
+
+#api way of calling 
+
+if __name__ = '__main__'
+  app.run()
